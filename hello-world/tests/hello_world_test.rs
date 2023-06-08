@@ -1,27 +1,23 @@
 use gtest::{Log, Program, System};
+use hello_world::InputMessages;
 
 #[test]
 fn hello_test() {
     let sys = System::new();
-    //inicicalizar los registros de impresion en stdout
     sys.init_logger();
-    //let program = Program::current(&sys);
-    let program = Program::from_file(&sys,
-        "./target/wasm32-unknown-unknown/release/hello_world.wasm");
-
-    program.send_bytes(2, String::from("Init Msg Sended"));
-
-    /*
-    assert!(res.log().is_empty());
+    let program = Program::current(&sys);
+    let res = program.send_bytes(2, String::from("Hello"));
     assert!(!res.main_failed());
+    assert!(res.log().is_empty());
 
-    //send a new msg that handle will process
-    let res = program.send(2, String::from("Second Msg Sended"));
-
-
-    let expected_log = Log::builder().dest(2).payload(String::from("Hello"));
-    assert!(res.contains(&expected_log));
-    */
+    // test `SendHelloTo`
+    let hello_recipient: u64 = 4;
+    let res = program.send(2,InputMessages::SendHelloTo(hello_recipient.into()),
+    );
+    let expected_log = Log::builder()
+        .dest(hello_recipient)
+        .payload(String::from("Hello"));
+    assert!(res.contains(&expected_log))
 }
 
 
