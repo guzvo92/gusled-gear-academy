@@ -1,22 +1,31 @@
-#![no_std]                  //por default autocarga gstd standar y hay que darle esto para que no lo haga
-
-//metadata son las estructuras de datos en el init/handle/handlereply
-use gstd::{prelude::*,ActorId,Encode,Decode,TypeInfo,Debug};
-use gmeta::{InOut, Metadata};
+#![no_std]                  
+use gstd::{prelude::*,Encode,Decode,TypeInfo};
+use gmeta::{InOut, Metadata,In};
 pub struct HelloMetadata;
 
-#[derive(Encode, Decode, TypeInfo, Debug)]
-pub enum InputMessageX {
-    SendHelloTo(ActorId), 
-    SendHelloReply,
+impl Metadata for HelloMetadata {
+   type Init = In<String>;
+   type Reply = ();
+   type Others = ();
+   type Signal = ();
+   type Handle = InOut<TmgAction, TmgEvent>;
+   type State = Tamagotchi;
 }
 
+#[derive(Encode, Decode, TypeInfo)]
+pub enum TmgAction {
+   Name,
+   Age,
+}
 
-impl Metadata for HelloMetadata {
-    type Init = InOut<String, ()>;
-    type Handle = InOut<InputMessageX, String>;
-    type State = String;
-    type Reply = (); 
-    type Signal = ();
-    type Others = (); 
- }
+#[derive(Encode, Decode, TypeInfo)]
+pub enum TmgEvent {
+   Name(String),
+   Age(u64),
+}
+
+#[derive(Default, Encode, Decode, TypeInfo)]
+pub struct Tamagotchi {
+   pub name: String,
+   pub date_of_birth: u64,
+}

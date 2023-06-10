@@ -1,41 +1,42 @@
-#![no_std]                  //no quiero usar la libreria std porque voy a implementar unalibreria estandar en gear
-use gstd::{prelude::*,msg,ActorId,debug};     // voy a querer todo (*) del elemento prelude de gstd
+#![no_std]
+use gstd::{prelude::*,msg,exec};
 
-#[derive(Encode, Decode, TypeInfo, Debug)]
-pub enum InputMessageX {
-    SendHelloTo(ActorId),
-    SendHelloReply,
+#[derive(Default, Encode, Decode, TypeInfo)]
+pub struct Tamagotchi {
+   pub name: String,
+   pub date_of_birth: u64,
 }
 
-static mut GREETING: Option<String> = None;
-
-
-//firma
-#[no_mangle]
-extern "C" fn init(){
-    let init_message: String = msg::load().expect("Can't load the incoming message");
-    debug!("Program initialized {:?}", init_message); //la imprimo
-    unsafe { GREETING = Some(init_message)}; //la inicializo a some 
-}
+static mut TAMAGOTCHI_MUT: Option<Tamagotchi> = None;
 
 //firma
 #[no_mangle]
 extern "C" fn handle(){
+    //let payload_string: String = msg::load().expect("Unable to decode `String`");
+    let tmg = unsafe { TAMAGOTCHI_MUT.get_or_insert(Default::default()) };
+    //let _nametamax = unsafe { NAMETAMA.as_ref().expect("The contract is not initialized")};
+    msg::reply(tmg, 0).expect("Can't send a `SendHelloReply` message");
+}
 
-    let message: InputMessageX = msg::load().expect("Can't decode `InputMessage`");
-    debug!("Incoming message {:?}", message); //la imprimo
-    let greeting = unsafe { GREETING.as_ref().expect("The contract is not initialized")};
+//firma
+#[no_mangle]
+extern "C" fn init(){ 
+    let init_namemsg: String = msg::load().expect("Can't decode `InputMessage`");
+    let init_age = exec::block_timestamp();
+    let tmg = Tamagotchi {
+        name: init_namemsg,
+        date_of_birth: init_age,
+    };
+    unsafe {TAMAGOTCHI_MUT = Some(tmg)};   
+    //debug!("Name init is {:?}",init_namemsg);   
+}
 
-    //es como un switchcase
-    match message {
-        InputMessageX::SendHelloTo(account) => {
-            msg::send(account, greeting, 0).expect("Can't send a `SendHelloTo` message");
-        },
-        InputMessageX::SendHelloReply => {
-            msg::reply(greeting, 0).expect("Can't send a `SendHelloReply` message");
-        }
-    }
 
+#[no_mangle]
+extern "C" fn state() {
+    //let state = unsafe {NAMETAMA.as_ref().expect("The contract is not initialized")};
+    let state_tmg = unsafe { TAMAGOTCHI_MUT.get_or_insert(Default::default()) };
+    msg::reply(state_tmg, 0).expect("Unable to share the state");
 }
 
 //verify metadata for a program
@@ -45,13 +46,6 @@ extern "C" fn metahash() {
     msg::reply(metahash, 0).expect("Unable to share the metahash");
 }
 
-//consultar grreeeting lo asigna a state y lo contesta en reply
-//cuando alguien consulkta el state lo regresa como respuesta
-#[no_mangle]
-extern "C" fn state() {
-    let state = unsafe {GREETING.as_ref().expect("The contract is not initialized")};
-    msg::reply(state, 0).expect("Unable to share the state");
-}
 
 
 
