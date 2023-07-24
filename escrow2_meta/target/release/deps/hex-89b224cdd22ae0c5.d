@@ -1,8 +1,0 @@
-/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/hex-89b224cdd22ae0c5.rmeta: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/lib.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/error.rs
-
-/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/libhex-89b224cdd22ae0c5.rlib: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/lib.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/error.rs
-
-/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/hex-89b224cdd22ae0c5.d: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/lib.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/error.rs
-
-/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/lib.rs:
-/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-0.4.3/src/error.rs:
