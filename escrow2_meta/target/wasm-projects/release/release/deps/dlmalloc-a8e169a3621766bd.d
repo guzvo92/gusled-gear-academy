@@ -1,0 +1,12 @@
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/wasm-projects/release/release/deps/dlmalloc-a8e169a3621766bd.rmeta: /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/lib.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/common.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlmalloc.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlverbose.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/global.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/linux.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/wasm-projects/release/release/deps/libdlmalloc-a8e169a3621766bd.rlib: /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/lib.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/common.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlmalloc.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlverbose.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/global.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/linux.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/wasm-projects/release/release/deps/dlmalloc-a8e169a3621766bd.d: /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/lib.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/common.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlmalloc.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlverbose.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/global.rs /home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/linux.rs
+
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/lib.rs:
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/common.rs:
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlmalloc.rs:
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/dlverbose.rs:
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/global.rs:
+/home/gman/.cargo/git/checkouts/dlmalloc-rust-80f9ff98f4270acf/9135baa/src/linux.rs:

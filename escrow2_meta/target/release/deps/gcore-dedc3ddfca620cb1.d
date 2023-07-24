@@ -1,0 +1,13 @@
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/gcore-dedc3ddfca620cb1.rmeta: /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/lib.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/errors.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/exec.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/msg.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/prog.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/general.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/utils.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/libgcore-dedc3ddfca620cb1.rlib: /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/lib.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/errors.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/exec.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/msg.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/prog.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/general.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/utils.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/deps/gcore-dedc3ddfca620cb1.d: /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/lib.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/errors.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/exec.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/msg.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/prog.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/general.rs /home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/utils.rs
+
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/lib.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/errors.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/exec.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/msg.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/prog.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/general.rs:
+/home/gman/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/5c685d0/gcore/src/utils.rs:

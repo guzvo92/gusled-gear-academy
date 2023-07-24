@@ -1,0 +1,8 @@
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/wasm-projects/release/release/deps/libimpl_trait_for_tuples-dbe82ce0c059479b.so: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/lib.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/full_automatic.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/semi_automatic.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/utils.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/wasm-projects/release/release/deps/impl_trait_for_tuples-dbe82ce0c059479b.d: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/lib.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/full_automatic.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/semi_automatic.rs /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/utils.rs
+
+/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/lib.rs:
+/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/full_automatic.rs:
+/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/semi_automatic.rs:
+/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-trait-for-tuples-0.2.2/src/utils.rs:

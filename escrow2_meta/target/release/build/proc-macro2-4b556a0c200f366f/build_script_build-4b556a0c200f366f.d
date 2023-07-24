@@ -1,0 +1,5 @@
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/build/proc-macro2-4b556a0c200f366f/build_script_build-4b556a0c200f366f: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.63/build.rs
+
+/mnt/c/Users/GUSTAVO/Desktop/apps/0testgear/gusled-gear-academy/escrow/target/release/build/proc-macro2-4b556a0c200f366f/build_script_build-4b556a0c200f366f.d: /home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.63/build.rs
+
+/home/gman/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.63/build.rs:

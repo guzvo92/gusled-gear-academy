@@ -1,4 +1,6 @@
 /target
 /Cargo.lock
-/escrow/target/
-/escrow/Cargo.lock
+/escrow1_simple/target/
+/escrow1_simple/Cargo.lock
+/escrow2_meta/target/
+/escrow2_meta/Cargo.lock
